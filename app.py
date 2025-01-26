@@ -5,7 +5,7 @@ import dash
 from dash import html,dcc
 from dash.dependencies import Input,Output
 
-print("Hello")
+
 
 external_stylesheets =[
    { 
