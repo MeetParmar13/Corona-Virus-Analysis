@@ -28,6 +28,8 @@ option=[
     {'label':'Deceased','value':'Deceased'},
 ]
 
+print("Hello2")
+
 app=dash.Dash(__name__,external_stylesheets=external_stylesheets)
 
 app.layout=html.Div([
