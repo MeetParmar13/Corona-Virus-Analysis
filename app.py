@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 import dash 
 from dash import html,dcc
 from dash.dependencies import Input,Output
-
+  
 
 
 external_stylesheets =[
@@ -20,6 +20,8 @@ total=pat.shape[0]
 active=pat[pat['current_status'] == 'Hospitalized'].shape[0]
 recovered= pat[pat['current_status'] == 'Recovered'].shape[0]
 deaths= pat[pat['current_status'] == 'Deceased'].shape[0]
+
+print("Hello1")
 
 option=[
     {'label':'All','value':'All'},
