@@ -5,6 +5,8 @@ import dash
 from dash import html,dcc
 from dash.dependencies import Input,Output
 
+print("Hello")
+
 external_stylesheets =[
    { 
    ' href': 'https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
